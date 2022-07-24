@@ -49,10 +49,16 @@ async function curatedPhotos() {
 }
 
 async function searchPhotos(query) {
+  clear();
   const data = await fetchApi(
     `https://api.pexels.com/v1/search?query=${query}+query&per_page=15&page=1`
   );
   generatePictures(data);
+}
+
+function clear() {
+  gallery.innerHTML = "";
+  searchInput.value = "";
 }
 
 curatedPhotos();
