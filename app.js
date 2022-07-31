@@ -1,4 +1,4 @@
-const auth = "563492ad6f91700001000001f4cb313b13924ff0aae9e987862236a8"; //get api key from www.pexels.com
+const auth = ""; //get api key from www.pexels.com
 const gallery = document.querySelector(".gallery");
 const searchInput = document.querySelector(".search-input");
 
