@@ -5,7 +5,9 @@
 }
 
 body {
+    min-height: 100vh;
     font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
 header {
@@ -122,3 +124,5 @@ header h2 {
 .search-form button:hover {
     background: rgb(115, 105, 201);
 }
+
+/* .search-form input */
